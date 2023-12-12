@@ -1,33 +1,28 @@
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
     background: #f6f5f7;
     font-family: 'Montserrat', sans-serif;
-    color: #3e363f
+    color: #21643a
 }
 
 #contenedor{
     width: 900px;
     height: 500px;
     text-align: center;
-    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
     position: absolute;
     inset: 0;
     margin: auto;
 }
 
 #calculadora{
-    background: white;
-    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+    background: #F2F1EB;
     width: 50%;
     height: 100%;
     float: left;
 }
-
 #detalle{
-    background: #FF416C;
-    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+    background: #94A684;
     width: 50%;
     height: 100%;
     float: left;
@@ -35,7 +30,6 @@ body{
 }
 
 .contenido{
-    /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -47,20 +41,19 @@ input {
 	width: 70%;
     padding: 12px 15px;
     border: none;
-    background-color: #eee;
+    background-color: #B6C4B6;
 }
-
 button {
   font-size: 15px;
-	font-weight: bold;
+	top: 10px;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
-	color: #ffffff;
+	background-color: #a3b792;
+	border: 1px solid #94A684;
+	color: #FFEEF4;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	transition: transform 20ms ease-in;
+	transition: transform 27 ease-in;
 }
 
 button:active {
@@ -71,24 +64,22 @@ button:active {
     width: 900px;
     height: 500px;
     text-align: center;
-    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
     position: absolute;
     inset: 0;
     margin: auto;
     border-radius: 10px;
     overflow: hidden; 
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-      0 10px 10px rgba(255, 203, 203, 0.22);
+    box-shadow: 0 14px 28px #94A684, 
+      0 10px 10px #FFEEF4;
   }
 
-  #error{
-    color: red;
+#error{
+    color: #224d32;
     font-weight: bold;
     display: none;
 }
-
 .resultado{
-    color: #0A81D1;
+    color: #94A684;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;
